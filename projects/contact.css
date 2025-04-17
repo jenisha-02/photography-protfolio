@@ -1,0 +1,340 @@
+
+/* body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color:#e4d8f2;
+    color: #333;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    border-bottom: #555 3px solid;
+}
+header .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+header li {
+    display: inline;
+}
+header #branding {
+    display: flex;
+    align-items: center;
+}
+header #branding h1 {
+    margin: 0;
+    color:#fff;
+    margin-left: 10px;
+}
+header nav {
+    margin-top: 10px;
+}
+header .highlight {
+    
+
+
+
+
+
+
+
+
+    color: #e8491d;
+    font-weight: bold;
+}
+header a:hover {
+    color: #e8491d;
+    font-weight: bold;
+}
+header #branding .logo {
+    width: 50px; 
+    height: auto;
+    margin-right: 10px; 
+    vertical-align: middle;
+}
+
+#contact{
+    padding:20px;
+    background-color: #b49fc9;
+    margin:20px;
+    width:90%;
+    height:auto;
+    border-radius: 10px;
+}
+#contact h2{
+    color:#e8491d
+}
+#contact form{
+    margin-top: 20px;
+}
+#contact label{
+    margin-bottom: 5px;
+}
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea,
+#contact select{
+    width:50%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+#contact input[type="submit"]
+{
+    background-color: #e8491d;
+    color:#fff;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+
+}
+#contact input[type="submit"]:hover{
+    background: #333;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+}
+footer .contact-info{
+    margin-bottom: 10px;
+}
+footer .contact-info a{
+color: #fff;
+text-decoration: none;
+font-size: 16px;
+}
+footer .contact-info a:hover{
+    color: #e8491d;
+} */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color:#e4d8f2;
+    color: #333;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    border-bottom: #555 3px solid;
+}
+header .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+header li {
+    display: inline;
+}
+header #branding {
+    display: flex;
+    align-items: center;
+}
+header #branding h1 {
+    margin: 0;
+    margin-left: 10px;
+}
+header nav {
+    margin-top: 10px;
+}
+header .highlight, header .current a {
+    color: #e8491d;
+    font-weight: bold;
+}
+header a:hover {
+    color: #e8491d;
+    font-weight: bold;
+}
+header #branding .logo {
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 10px; /* Add some space between the logo and the text */
+    vertical-align: middle; /* Align the logo vertically */
+}
+.contact-header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .contact-header p {
+    font-size: 1rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+#contact {
+  
+    
+padding: 20px;
+background: #b49fc9;
+margin: 20px auto;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+max-width: 500px;
+width: 90%;
+height: auto;
+border-radius: 8px;
+
+}
+
+
+#contact h2 {
+    color: #e8491d;
+}
+#contact form {
+    margin-top: 20px;
+}
+#contact label {
+   
+    margin-bottom: 5px;
+}
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea,
+#contact select {
+    width: 100%; /* Reduced width to make the fields smaller */
+    padding: 8px; /* Reduced padding for less space inside the fields */
+    margin-bottom: 10px; /* Reduced margin for less space between fields */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+#contact input[type="submit"] {
+    background: #e8491d;
+    color: #fff;
+    padding: 8px 16px; /* Reduced padding for the submit button */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#contact input[type="submit"]:hover {
+    background: #333;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+}
+footer .contact-info {
+    margin-bottom: 10px;
+}
+footer .contact-info a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+footer .contact-info a:hover {
+    color: #e8491d;
+}
+
+@media (max-width: 768px) {
+    header .navbar-container {
+        flex-direction: column;
+        align-items: flex-start;
+        
+        }
+        header ul {
+        flex-direction: column;
+        gap: 10px;
+        }
+
+#contact {
+padding: 20px 15px;
+height: auto;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea,
+#contact select {
+font-size: 16px;
+}
+
+footer .contact-info {
+font-size: 14px;
+}
+}
+
+/* Extra small devices (phones) */
+@media (max-width: 480px) {
+    header .navbar-container {
+        flex-direction: column;
+        align-items: flex-start;
+        
+        }
+        header ul {
+        flex-direction: column;
+        gap: 10px;
+        }
+
+
+
+#contact h2 {
+font-size: 22px;
+}
+
+#contact input[type="submit"] {
+width: 100%;
+}
+
+footer {
+padding: 15px 10px;
+}
+}

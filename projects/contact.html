@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contect</title>
+    <link rel="stylesheet" href="contact.css">
+    <script>
+        window.onload = function () {
+            let form = document.getElementById("form");
+        
+            form.addEventListener("submit", function (e) {
+                e.preventDefault(); // Prevent default form submission
+        
+                let name = document.getElementById("name").value;
+                let email = document.getElementById("email").value;
+                let subject = document.getElementById("subject").value;
+                let message = document.getElementById("message").value;
+        
+                if (name && email && subject && message) {
+                    console.log('name:', name);
+                    console.log('email:', email);
+                    console.log('subject:', subject);
+                    console.log('message:', message);
+        
+                    form.reset();
+                    alert('Thank you! your form successfully submitted');
+                } else {
+                    alert('Please fill out all fields.');
+                }
+            });
+        };
+        </script>
+        
+
+    
+    
+</head>
+<body>
+    <header>
+        <div class="navbar-container">
+            <div id="branding">
+                <a href="index.html"><img src="logo.png" alt="logo" class="logo"></a>
+                <h1><span class="highlight">Your </span>Photography</h1>
+            </div>
+            <nav>
+                <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="gallary.html">gallery</a></li>
+            <li class="current"><a href="about.html">about</a></li>
+            <li><a href="testimonials.html">testimonials</a></li>
+            <li><a href="contact.html">contact</a></li>
+            </ul>
+            </nav>
+            </div>
+            </header>
+<div class="container">
+    <section id="contact">
+        <div class="contact-header">
+            <h1>Let's Work Together</h1>
+            <p>If you're looking to capture special moments or need professional photography services, feel free to reach out. I'm here to help!</p>
+          </div>
+        <h2>contact us</h2>
+        <form id="form">
+             
+    
+
+
+            <label for="name">name:</label><br>
+            <input type="text"  id="name" name="name" required><br><br>
+
+            <label for="email">email:</label><br>
+            <input type="email"  id="email" name="email" required><br><br>
+
+            <label for="subject">subject</label><br>
+<select id="subject" name="subject"><br><br>
+    <option value="general inquairy">general inquairy</option>
+    <option value="pricing">pricing</option>
+    <option value="booking">booking</option>
+    <option value="other">other</option>
+</select><br>
+<br>
+    <label for="message">message:</label><br>
+    <textarea id="message" name="message" row="4"  required></textarea><br><br>
+
+    <input type="submit" value="send message">
+
+
+
+        </form>
+    </section>
+</div>
+            <footer>
+                <div class="container">
+                    <div class="contact-info">
+                        <p>Email:<a href="mailto:info@yourphotography.com"> info@yourphotography.com</a></p>
+                        <p>phone:<a href="tel:+1234567890"> +123-456-7890</a></p>
+                    </div>
+                    <p>&copy; 2025 your photography.all rights reserved.</p>
+                </div>
+            </footer>
+        
+    
+</body>
+
+</html>

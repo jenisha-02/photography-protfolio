@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+        background-color: #444;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        
+          
+        }
+        .welcome-section{
+            text-align: center;
+            padding: 40px;
+            color: aliceblue;
+            font-size: 22px;
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 900px;
+            box-shadow: 0px 4px 10px black;
+            animation: backgroundFade 10s infinite alternate ;
+          
+        }
+        .welcome-section h2{
+            margin-bottom: 15px;
+        }
+        .feature-section{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 40px;
+            background-color: #b49fc9;
+            margin:20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px black;
+        }
+        .feature-section img{
+            width:350px;
+            height: auto;
+            border-radius: 5%;
+        }
+
+        @keyframes backgroundFade{
+            0%{background-color: antiquewhite;}
+            50%{background-color: rgb(203, 117, 3);}
+            100%{background-color: rgb(58, 38, 12);}
+        }
+        .inso-section{
+            display: flex;
+            justify-content: space-around;
+            padding: 40px 20px;
+            background-color: antiquewhite;
+            gap:30px;
+            margin-bottom: 50px;
+        }
+        .info-item{
+            text-align: center;
+            flex-wrap: wrap;
+            max-width: 250px;
+            transition: transform 0.3s ease;
+        }
+        .info-item img{
+            width:80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px black;
+        }
+        .info-item p{
+            color: palevioletred;
+        }
+        @keyframes fadeIn{
+from {opacity:0;}
+to{opacity: 1;}
+        }
+        @keyframes rotate{
+            from{transform: rotate(0deg);}
+            to{
+                transform: rotate(360deg);
+            }
+            
+        }
+        .info-item img{
+            animation:rotate 5s linear infinite;
+        }
+          @media (max-width:992px){
+            .feature-section{
+                flex-direction: column;
+                text-align: center;
+            } 
+        }
+        
+    </style>
+</head>
+<body>
+
+<div class="welcome-section">
+<h2>welcome our photography</h2>
+<p>Experience the magic of moments frozen in time. We capture emotions, beauty, and stories through our lens, turning them into everlasting memories. Whether it's a wedding, a serene landscape, or a special event, we bring life to every frame.</p>
+</div>
+<div class="feature-section">
+    <div class="feature-content">
+        <h2>life best movement</h2>
+        <p>as a photographer   As a photographer, I believe every moment has a story waiting to be told. Through my lens, I capture the emotions, beauty, and essence of life, freezing them in timeless frames. From the laughter of loved ones to the serenity of nature, each photograph reflects a memory that deserves to be cherished forever. Light, composition, and creativity come together to transform ordinary scenes into extraordinary works of art. Photography is more than just taking pictures—it's about preserving the fleeting moments that make life truly special. </p>
+
+</div>
+<img src="animal5.jpg">
+</div>
+    <section class="inso-section">
+    <div class="info-item">
+        <a href="testimonis.html"><img src="women1.webp"></a>
+        <p>Let’s connect! We’re here to answer your questions and get started.</p>
+        </div>
+
+    
+        <div class="info-item">
+            <a href="about"><img src="logo.png"></a>
+            <p>>Real stories from happy clients who’ve trusted us with their dreams.</p>
+        </div>
+        <div class="info-item">
+            <a href="contact"><img src="Premium-Ready-made-Designer-Gown-for-women.jpg"></a>
+            <p>Let’s connect! We’re here to answer your questions and get started."
+            </p>
+        </div>
+    </section>
+</body>
+</html>
